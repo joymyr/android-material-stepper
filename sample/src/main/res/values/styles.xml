@@ -55,6 +55,10 @@
         <item name="ms_completeNavigationButtonStyle">@style/CenteredCompleteButtonStyle</item>
     </style>
 
+    <style name="FilledProgressStepperLayoutTheme" parent="MSDefaultStepperLayoutTheme">
+        <item name="ms_colorableProgressBarStyle">@style/FilledProgressStepperLayoutStyle</item>
+    </style>
+
     <style name="CustomBottomNavigationStyle" parent="MSBottomNavigation">
         <item name="android:layout_height">40dp</item>
     </style>
@@ -91,6 +95,11 @@
     <style name="DarkStepTabSubtitleStyle" parent="MSStepTabSubtitle">
         <item name="android:textColor">@color/ms_white_54_opacity</item>
         <item name="fontPath">fonts/Oswald-Stencbab.ttf</item>
+    </style>
+
+    <style name="FilledProgressStepperLayoutStyle" parent="MSColorableProgressBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
     </style>
 
     <style name="MainCoordinatorLayoutStyle" />
