@@ -6,6 +6,7 @@
     <string name="themed_dots">Themed dots</string>
     <string name="default_progress_bar">Default progress bar</string>
     <string name="styled_progress_bar">Styled progress bar</string>
+    <string name="filled_progress_bar">Filled progress bar</string>
     <string name="default_none">Default \'none\'</string>
     <string name="default_tabs">Default tabs</string>
     <string name="styled_tabs">Styled tabs</string>
@@ -32,6 +33,7 @@
     <string name="themed_dots_description">Dotted stepper styled through view attributes set in Activity theme</string>
     <string name="default_progress_bar_description">The default implementation of a stepper with a horizontal progress bar</string>
     <string name="styled_progress_bar_description">Horizontal progress bar stepper styled through view attributes in the layout file</string>
+    <string name="filled_progress_bar_description">Horizontal progress bar that fills the navigation bar</string>
     <string name="default_tabs_description">The default implementation of a tabbed stepper</string>
     <string name="styled_tabs_description">Tabbed stepper styled through view attributes in the layout file</string>
     <string name="default_none_description">The default implementation of a stepper without any particular current step indication</string>

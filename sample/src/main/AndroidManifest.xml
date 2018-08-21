@@ -54,6 +54,7 @@
             android:name=".CustomStepperLayoutThemeActivity"
             android:theme="@style/AppThemeDark" />
         <activity android:name=".SetButtonColorProgrammaticallyActivity" />
+        <activity android:name=".FilledProgressBarActivity" />
     </application>
 
 </manifest>

@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
                 SampleItem(getString(R.string.themed_dots), getString(R.string.themed_dots_description), ThemedDotsActivity::class.java),
                 SampleItem(getString(R.string.default_progress_bar), getString(R.string.default_progress_bar_description), DefaultProgressBarActivity::class.java),
                 SampleItem(getString(R.string.styled_progress_bar), getString(R.string.styled_progress_bar_description), StyledProgressBarActivity::class.java),
+                SampleItem(getString(R.string.filled_progress_bar), getString(R.string.filled_progress_bar_description), FilledProgressBarActivity::class.java),
                 SampleItem(getString(R.string.default_tabs), getString(R.string.default_tabs_description), DefaultTabsActivity::class.java),
                 SampleItem(getString(R.string.styled_tabs), getString(R.string.styled_tabs_description), StyledTabsActivity::class.java),
                 SampleItem(getString(R.string.default_none), getString(R.string.default_none_description), DefaultNoneActivity::class.java),
