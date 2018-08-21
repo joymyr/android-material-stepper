@@ -46,6 +46,31 @@
         android:layout_width="match_parent"
         tools:style="@style/MSBottomNavigation">
 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true">
+
+            <com.stepstone.stepper.internal.widget.DottedProgressBar
+                android:id="@+id/ms_stepDottedProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+
+            <com.stepstone.stepper.internal.widget.ColorableProgressBar
+                android:id="@+id/ms_stepProgressBar"
+                style="?attr/ms_colorableProgressBarStyle"
+                android:indeterminate="false"
+                android:visibility="gone"
+                tools:progress="33"
+                android:layout_gravity="center"
+                tools:style="@style/MSColorableProgressBar"
+                tools:visibility="visible" />
+
+        </FrameLayout>
+
         <Button
             android:id="@+id/ms_stepPrevButton"
             style="?attr/ms_backNavigationButtonStyle"
@@ -58,29 +83,6 @@
             tools:style="@style/MSNavBarButton.Back"
             tools:text="@string/ms_back"
             tools:textColor="@color/ms_bottomNavigationButtonTextColor" />
-
-        <FrameLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true">
-
-            <com.stepstone.stepper.internal.widget.DottedProgressBar
-                android:id="@+id/ms_stepDottedProgressBar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:visibility="gone" />
-
-            <com.stepstone.stepper.internal.widget.ColorableProgressBar
-                android:id="@+id/ms_stepProgressBar"
-                style="?attr/ms_colorableProgressBarStyle"
-                android:indeterminate="false"
-                android:visibility="gone"
-                tools:progress="33"
-                tools:style="@style/MSColorableProgressBar"
-                tools:visibility="visible" />
-
-        </FrameLayout>
 
         <com.stepstone.stepper.internal.widget.RightNavigationButton
             android:id="@+id/ms_stepNextButton"
